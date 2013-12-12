@@ -1,0 +1,38 @@
+{
+  "name": "grunt-write-bower-json",
+  "description": "Generates a bower.json file",
+  "version": "0.0.1",
+  "homepage": "https://github.com/testdouble/grunt-write-bower-json",
+  "author": {
+    "name": "Justin Searls",
+    "email": "justin@testdouble.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/searls/grunt-write-bower-json.git"
+  },
+  "bugs": {
+    "url": "https://github.com/searls/grunt-write-bower-json/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/searls/grunt-write-bower-json/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "grunt spec:e2e"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-jasmine-bundle": "0.0.3"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin",
+    "bower"
+  ]
+}
